@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-black{
+  background-color: black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.bg-black{
+  width: 100vw;
+}
+.text-white{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.button-text{
+  font-family: DM Sans;
+  font-size: 1.25vw;
+  font-weight: bold;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text{
+  font-family: DM Sans;
+  font-size: 1.25vw;
+  font-weight: normal;
+}
+.heading-text{
+  color: white;
+  font-family: DM Sans;
+  font-size: 3.889vw;
+  font-weight: bold;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.subheading-text{
+  font-family: DM Sans;
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+.title-text{
+  font-family: DM Sans;
+  font-size: 1.944vw;
+  font-weight: bold;
+}
+.flex{
+  display: flex;
+}
+.flex-center{
+  align-items: center;
+  justify-content: center;
+}
+.flex-space-between{
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-space-evenly{
+  align-items: center;
+  justify-content: space-evenly;
+}
+.flex-space-between{
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-space-around{
+  align-items: center;
+  justify-content: space-around;
+}
+.whiteButton{
+  color: black;
+  background-color: white;
+  padding: 1.25vw 1.667vw ;
+  border-radius: 2.778vw;
+}
+.blackButton{
+  color: white;
+  background-color: black;
+  padding: 1.25vw 1.667vw ;
+  border-radius: 2.778vw;
+  border: 1px solid white;
+}
+.hero{
+  background-image: url('./Assets/image.svg');
+  position: relative;
+  width: 100vw;
+  height:60.968vw;
+}
+.test{
+  position: absolute;
+  left: 0;
+  bottom: 10.459vw;
+}
+.test img{
+  width: 11.525vw;
+}
+.rightImage{
+  position: absolute;
+  right: -3.125vw;
+  bottom: 0vw;
+}
+.rightImage img{
+  width: 18.673vw;
+}
+.test2{
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }

@@ -1,0 +1,16 @@
+.navContainer{
+    height: 8.264vw;
+    padding-right: 7.639vw;
+    padding-left: 4.737vw;
+}
+.menu{
+    gap: 2.292vw;
+}
+.logo{
+    gap:1.139vw;
+}
+.logo img{
+    margin-top: 0.825vw;
+    height: 6.158vw;
+    width: 6.158vw;
+}

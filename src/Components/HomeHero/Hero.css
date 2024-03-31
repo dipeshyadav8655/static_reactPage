@@ -1,0 +1,13 @@
+.headingContainer{
+    width: 71.321vw;
+}
+.subHeading{
+    margin-top: 1.116vw;
+}
+.heroButton{
+    padding: 1.667vw 2.5vw;
+}
+.buttonContainer{
+    margin-top: 2.5vw;
+    gap: 1.667vw;
+}
